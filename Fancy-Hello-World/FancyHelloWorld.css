@@ -1,0 +1,95 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 25, 2017, 3:38:00 PM
+    Author     : Bo
+*/
+
+img
+{
+    width: 10%;
+    position:relative;
+    top: 20%;
+}
+
+#Earth
+{
+    position: absolute;
+    left:535px;
+    top:235px;
+}
+
+.language
+{
+    text-align: left;
+    
+    position: absolute;
+    left: 300px;
+    top: 250px;
+    
+    width: 600px;
+    height: 100px;
+}
+
+#US
+{
+    transform: rotate(0deg);
+}
+
+#Chinese
+{
+    transform: rotate(30deg);
+}
+
+#French
+{
+    transform: rotate(60deg);
+}
+
+#German
+{
+    transform: rotate(90deg);
+}
+
+#Russian
+{
+    transform: rotate(120deg);
+}
+
+#Finnish
+{
+    transform: rotate(150deg);
+}
+
+#Swedish
+{
+    transform: rotate(180deg);
+}
+
+#Spanish
+{
+    transform: rotate(210deg);
+}
+
+#Japanese
+{
+    transform: rotate(240deg);
+}
+
+#Swahili
+{
+    transform: rotate(270deg);
+}
+
+#Arabic
+{
+    transform: rotate(300deg);
+}
+
+#Maori
+{
+    transform: rotate(330deg);
+}
