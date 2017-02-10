@@ -1,0 +1,112 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 2, 2017, 5:29:59 PM
+    Author     : Bo
+*/
+body
+{
+    width: 450px;
+    font-family: calibri;
+}
+
+#cookieArea
+{
+    height: 325px;
+}
+.cookieInfo
+{
+    position: relative;
+    text-align: right;
+    font-size: x-small;
+    width: 63px;
+    
+    margin-bottom: 52px;
+    padding-left: 30px;
+}
+#cookies
+{
+    position: absolute;
+    left: 104px;
+    top: 9px;
+    width: 300px;
+    height: 265px;
+}
+#cookieGeicoImg
+{
+    position: absolute;
+    left: 160px;
+    top: 275px;
+    
+    width: 60px;
+}
+#cookieOtherGuy
+{
+    position: absolute;
+    left: 295px;
+    top: 260px;
+    
+    font-size: small;
+}
+
+#infoArea
+{
+    height: 140px;
+}
+#infoBig
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 10px;
+    
+}
+#infoLittle
+{
+    text-align: center;
+    font-size: 10px;
+    margin: 10px;
+}
+
+
+#geicoArea
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 19%;
+}
+#geicoCatchphrase
+{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom:0;
+}
+#geicoImg
+{
+    position: relative;
+    margin: 0;
+    left: 88px;
+    width: 290px;
+}
+#geicoInfo
+{
+    text-align: center;
+    margin-top: 0;
+}
+
+#legalArea
+{
+    /**/
+}
+#legalInfo
+{
+    font-size: 5.3px;
+    text-align: center;
+}
+
+
