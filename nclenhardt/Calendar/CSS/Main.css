@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Feb 24, 2017, 4:50:34 PM
+    Author     : Bo
+*/
+
+body
+{
+    color: red;
+}
+
+div
+{
+    float: left;
+}
+
+#calendar
+{
+    border: 1px solid black;
+    width: 702px;
+    height: 543px;
+}
+
+.dayTop
+{
+    border: 1px solid black;
+    margin: 1px;
+    padding: 2px;
+    margin-top: 2px;
+    height: 32px;
+    width: 92px;
+    float: left;
+    
+    
+}
+
+.day
+{
+    border: 1px solid black;
+    margin: 1px;
+    height: 96px;
+    width: 96px;
+    float: left;
+    text-align: center;
+}
+
+.day:not(#currentDay):active
+{
+    background-color: lightblue;
+    color: coral;
+}
+
+#currentDay
+{
+    background-color: blue;
+    color: gold;
+    font-weight: bold;
+}
+
+#currentDay:active
+{
+    background-color: cornflowerblue;
+    color: khaki;
+}
+
+#clock
+{
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    float: left;
+}

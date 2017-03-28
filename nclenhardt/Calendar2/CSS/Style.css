@@ -1,0 +1,76 @@
+/* 
+    Created on : Mar 15, 2017, 5:24:38 PM
+    Author     : Bo
+*/
+
+#selectedMonth
+{
+    display: none;
+}
+
+#selectedYear
+{
+    display: none;
+}
+
+#enter
+{
+    display: none;
+}
+
+/*
+ * styling how calendars diplay
+ * there's a few rules that are blank beause I *might* use them
+ */
+#calendar > *
+{
+    width: fit-content;
+}
+
+.year
+{
+    
+}
+
+.yearHeader
+{
+    text-align: center;    
+}
+
+.year > .monthDiv
+{
+    
+}
+
+.monthDiv
+{
+    float: left;
+    margin: 8px;
+    background-color: lightblue;
+    border-radius: 2px;
+}
+
+.monthHeader
+{
+    text-align: center;
+}
+
+.month
+{
+    background-color: slateblue;
+    border-radius: 1px;
+    margin: 2px;
+}
+
+.week
+{
+    
+}
+
+.day
+{
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+

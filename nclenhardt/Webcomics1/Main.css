@@ -1,0 +1,144 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 31, 2017, 8:42:57 PM
+    Author     : Bo
+*/
+
+body
+{
+    background-color: blanchedalmond
+}
+
+/*
+top menu stuff
+*/
+#menu
+{
+    width:100%;
+    border-bottom: 3px solid brown;
+    padding-bottom: 10px;
+}
+#menu a
+{
+    color: firebrick;
+    font-size: 120%;
+    
+    border: 1px solid brown;
+    border-radius: 8px;
+    
+    padding: 5px;
+    margin-left: 8px;
+}
+
+/*
+a title bar (if there is one)
+*/
+#title
+{
+    color: maroon;
+    text-align: center;
+    width:100%;
+    font-size: 300%;
+    margin: 2%;
+}
+
+/*
+webcomics.php has a paragraph that needs spacing
+*/
+#webcomicDescription
+{
+    margin: 5%;
+}
+
+/*
+main div holding all the other content
+*/
+#mainDiv
+{
+    position: relative;
+    height: fit-content;
+    width: 95%;
+    
+    float: left;
+    
+    border-radius: 10px;
+    border: 3px solid indianred;
+    padding: 5px;
+    padding-bottom:10px;
+    margin: 1%;
+}
+
+
+/*
+    everything below is for formatting the comics
+*/
+
+#mainDiv div
+{
+    float: left;
+    
+    background-color: black;
+    color: black;
+    
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 5px;
+    padding-bottom:10px;
+    margin: 1%;
+    
+    overflow:hidden;
+    height: 30px;
+    width: 30%;
+    
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+#mainDiv div a
+{
+    float: right;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: black;
+    color: aliceblue;
+    
+    text-align: center;
+    font-size: 16;
+    font-weight: bold;
+    
+    height: 30px;
+    width: 100%;
+    
+    margin-bottom: 10px;
+   
+}
+
+#mainDiv div a img
+{
+    position: relative;
+    height:95%;
+    float:left;
+    left: 5%;
+    top: 3%;
+    
+    border-radius: 2px;
+}
+
+
+#mainDiv div:hover
+{
+    height:fit-content;
+    border-width: 2px;
+    
+    background-color: ghostwhite;
+    
+    border-color: burlywood;
+    
+    
+    padding-top: 3px;
+}
+

@@ -1,0 +1,126 @@
+/* 
+    Created on : Mar 3, 2017, 8:12:37 PM
+    Author     : Bo
+*/
+
+#canvas
+{
+    border: 1px solid black;
+    position: absolute;
+    left: 7%;
+    top: 5%;
+    width: 40%;
+    height: 90%;
+    overflow: hidden;
+}
+
+#adderDiv
+{
+    position: absolute;
+    top: 6%;
+    left: 50%;
+}
+
+#adderDiv > *
+{
+    position: relative;
+    clear:left;
+    margin-bottom: 15px;
+}
+
+#colorDiv
+{
+    width: 160px;
+    height: 55px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+#colorDiv  > *
+{
+    margin: 5px;
+    float: left;
+}
+
+.color
+{
+    width: 14px;
+    height: 14px;
+    border: 1px solid black;
+}
+
+/*hides color chooser out of sight*/
+#customColorChooser
+{
+    clear: left;
+}
+
+#textAdderDiv
+{
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black;
+}
+
+#textBoxDiv
+{
+    margin: 5px;
+    width: 171px;
+    height: 171px;
+    
+    border: 1px solid black;
+}
+
+#textBox
+{
+    display: block;
+    margin: auto;
+    margin-top: 45%;
+    text-align: center;
+}
+
+#textAngleDiv
+{
+    margin: 5px;
+}
+
+#textAngleBox
+{
+    width: 20px;
+}
+
+#textAngle
+{
+    width: 120px;
+}
+
+#imageAdderDiv
+{
+    
+    border: 1px solid black;
+}
+
+#imageAdderDiv > *
+{
+    margin: 5px;
+}
+
+#imageDiv
+{
+    max-height: 300px;
+    max-width: 300px;
+    min-height: 50px;
+    min-width: 50px;
+    
+    overflow: scroll;
+}
+
+#imageDimensionsDiv
+{
+    width: 300px;
+}
+
+#imageDimensionsDiv input 
+{
+    width: 20%;
+}
